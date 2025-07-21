@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from db.base_class import Base
 from db.sessions import engine
-from user.models import User
+
 
 app = FastAPI(title="Routine Maaster")
 
